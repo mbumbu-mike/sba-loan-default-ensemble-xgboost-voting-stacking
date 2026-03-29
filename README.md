@@ -175,11 +175,23 @@ The following evaluation plots were generated:
 
 A **Streamlit web application** was developed to demonstrate real-time prediction of loan default risk.
 
-### Features:
-- User input interface for loan and borrower attributes
-- Real-time default probability prediction
-- Risk classification (High / Low risk)
-- Interactive visual feedback
+### 🌐 Live Deployment Interface
+
+Below is a snapshot of the deployed application:
+
+![Streamlit Deployment](Deploy.png)
+
+### ⚙️ Features:
+- User input interface for loan and borrower attributes  
+- Real-time default probability prediction  
+- Risk classification (High / Low risk)  
+- Interactive visual feedback  
+- Lightweight and browser-based deployment  
+
+### 📌 Deployment Stack:
+- Streamlit (Frontend + Backend)
+- Pickled XGBoost model (`xgb_loan_model.pkl`)
+- Python-based inference pipeline
 
 ---
 
